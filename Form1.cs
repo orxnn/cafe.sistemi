@@ -85,7 +85,7 @@ namespace cafesistemi
             if (string.IsNullOrWhiteSpace(hesabMetni) ||
                 !double.TryParse(hesabMetni, NumberStyles.Any, CultureInfo.InvariantCulture, out double hesab))
             {
-                MessageBox.Show("Lütfən əvvəlcə 'Yekun hesab' düyməsinə basın!", "Xəbərdarlıq", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Zehmet olmasa 'Yekun hesab' düyməsinə basın!", "Xəbərdarlıq", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -93,7 +93,7 @@ namespace cafesistemi
                 !double.TryParse(meblegMetni, NumberStyles.Any, CultureInfo.InvariantCulture, out double mebleg) ||
                 mebleg < 0)
             {
-                MessageBox.Show("Lütfən 'Məbləğ' xanasına keçərli ədəd daxil edin!", "Xəbərdarlıq", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Zehmet olmasa 'Məbləğ' xanasına keçərli ədəd daxil edin!", "Xəbərdarlıq", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
