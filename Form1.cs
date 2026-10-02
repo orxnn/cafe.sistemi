@@ -34,47 +34,47 @@ namespace cafesistemi
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("Çiyələkli Tort - 6.00");
+            listBox1.Items.Add("Cay ile keks - 3.0");
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("Kola - 2.50");
+            listBox1.Items.Add("Amerikano  - 4.0");
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("Meyvə Şirəsi - 3.50");
+            listBox1.Items.Add("Latte - 3.50");
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("Burger - 8.50");
+            listBox1.Items.Add("Merci supu - 5.0");
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("Sendviç - 5.00");
+            listBox1.Items.Add("Yumurta qayganaq- 5.00");
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("Pizza - 12.00");
+            listBox1.Items.Add("Kabab - 12.00");
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("Muffin - 3.00");
+            listBox1.Items.Add("Isgender Doner - 7.00");
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("Hot-Dog - 4.00");
+            listBox1.Items.Add("Cay ile murebbe - 4.00");
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("Peçenye - 2.00");
+            listBox1.Items.Add("Cola - 2.00");
         }
 
         private void button1_Click(object sender, EventArgs e)
